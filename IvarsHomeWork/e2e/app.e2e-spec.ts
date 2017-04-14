@@ -1,10 +1,10 @@
-import { AngularWorkshopPage } from './app.po';
+import { IvarsHomeWorkPage } from './app.po';
 
-describe('angular-workshop App', function() {
-  let page: AngularWorkshopPage;
+describe('ivars-home-work App', () => {
+  let page: IvarsHomeWorkPage;
 
   beforeEach(() => {
-    page = new AngularWorkshopPage();
+    page = new IvarsHomeWorkPage();
   });
 
   it('should display message saying app works', () => {

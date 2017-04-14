@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class AngularWorkshopPage {
+export class IvarsHomeWorkPage {
   navigateTo() {
     return browser.get('/');
   }
